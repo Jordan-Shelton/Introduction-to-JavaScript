@@ -178,8 +178,11 @@ Using the miles function below do the following:
   3. Return the number of miles
 */
 
-function miles(/*add your code here*/){
-    /*add your code here*/
+let klicks = 8;
+
+function miles(klicks){
+    const multiplier = 0.621371;
+    return klicks * multiplier;
   }
 
 
@@ -191,10 +194,11 @@ Using the feet function below do the following:
   2. Convert the number of cm to feet
   3. Return number of feet
 */
-
-function feet(/*add your code here*/){
-    /*add your code here*/
-  }
+let cm = 32;
+function feet(cm){
+    const div = 30.48;
+    return cm / div;
+  };
  
 
 
@@ -207,10 +211,13 @@ Using the annoyingSong function below do the following:
   2. At each invocation, it should RETURN this string (note: the tests are expecting the same string as below):
       "{number} bottles of soda on the wall, {number} bottles of soda, take one down pass it around {number left over} bottles of soda on the wall"
 */
-
-function annoyingSong(/*add your code here*/){
-        /*add your code here*/
+let start = 1;
+function annoyingSong(num){
+  if(i = 0, i === 99, i++){
+    let i = number;
   }
+  return "{number} bottles of soda on the wall, {number} bottles of soda, take one down pass it around {number left over} bottles of soda on the wall"
+}
 
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 7 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
